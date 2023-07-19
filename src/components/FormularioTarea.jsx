@@ -9,8 +9,15 @@ const FormularioTarea = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setTareas([...tareas, tarea]);
-    e.target.reset();
-    // setTarea("");
+    e.target.reset(); // setTarea("");
+  };
+
+  // hacer borrar por posicion despues
+  const borrarTarea = (tareaBorrar) => {
+    let listaTareasFiltrada = listaTareas.filter(
+      (itemTarea) => itemTarea !== tareaBorrar
+    );
+    setTareas(listaTareasFiltrada);
   };
 
   return (
