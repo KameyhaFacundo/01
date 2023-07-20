@@ -14,7 +14,7 @@ const FormularioTarea = () => {
 
   // hacer borrar por posicion despues
   const borrarTarea = (tareaBorrar) => {
-    let listaTareasFiltrada = listaTareas.filter(
+    let listaTareasFiltrada = tareas.filter(
       (itemTarea) => itemTarea !== tareaBorrar
     );
     setTareas(listaTareasFiltrada);
@@ -34,7 +34,7 @@ const FormularioTarea = () => {
           </Button>
         </Form.Group>
       </Form>
-      <ListaTareas tareas={tareas}></ListaTareas>
+      <ListaTareas tareas={tareas} borrarTarea={borrarTarea}></ListaTareas>
     </>
   );
 };
