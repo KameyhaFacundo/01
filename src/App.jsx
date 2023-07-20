@@ -8,10 +8,16 @@ function App() {
     <>
       <Container className="my-5 mainPage">
         <h1 className="display-4 text-center text-light">Lista de tareas</h1>
-        <hr className="text-light" />
+        <hr className="text-light border-3" />
         <FormularioTarea></FormularioTarea>
       </Container>
       <footer className="text-center bg-dark text-light py-4">
+        <p>
+          <a href="https://github.com/KameyhaFacundo" class="text-secondary">
+            Facundo Kameyha
+          </a>
+        </p>
+
         <p>&copy; Todos los derechos reservados</p>
       </footer>
     </>

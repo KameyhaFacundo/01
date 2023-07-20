@@ -1,4 +1,10 @@
-# Ejercicio 4 de React : Crear una aplicación web que muestre una lista de tareas, al ingresar una tarea en el input y presionar enter.
+# Practica de React - Lista de tareas
+
+_Listar tareas y presentar funcionalidad como borrar_
+
+### Demo ⭐
+
+[Lista de tareas ](https://listartareasfak.netlify.app)
 
 # Tecnologias ⚒️
 
@@ -8,11 +14,7 @@
 - JavaScript / React
 - [React-Bootstrap](https://react-bootstrap.github.io/)
 
-## Repositorio💻
-
-```bash
-https://github.com/KameyhaFacundo/03-React
-```
+---
 
 ## Autor 👨‍💻👩‍💻
 

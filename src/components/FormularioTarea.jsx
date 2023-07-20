@@ -29,7 +29,7 @@ const FormularioTarea = () => {
             placeholder="Ingrese una tarea"
             onChange={(e) => setTarea(e.target.value)}
           ></Form.Control>
-          <Button variant="primary" type="submit">
+          <Button variant="dark" className="mx-2" type="submit">
             Agregar
           </Button>
         </Form.Group>
