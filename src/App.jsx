@@ -12,11 +12,9 @@ function App() {
         <FormularioTarea></FormularioTarea>
       </Container>
       <footer className="text-center bg-dark text-light py-4">
-        <p>
-          <a href="https://github.com/KameyhaFacundo" class="text-secondary">
-            Facundo Kameyha
-          </a>
-        </p>
+        <a href="https://github.com/KameyhaFacundo" className="text-secondary">
+          Facundo Kameyha
+        </a>
 
         <p>&copy; Todos los derechos reservados</p>
       </footer>
