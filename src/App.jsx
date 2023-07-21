@@ -15,7 +15,6 @@ function App() {
         <a href="https://github.com/KameyhaFacundo" className="text-secondary">
           Facundo Kameyha
         </a>
-
         <p>&copy; Todos los derechos reservados</p>
       </footer>
     </>

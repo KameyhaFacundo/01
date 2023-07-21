@@ -9,10 +9,9 @@ const FormularioTarea = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setTareas([...tareas, tarea]);
-    e.target.reset(); // setTarea("");
+    setTarea("");
   };
 
-  // hacer borrar por posicion despues
   const borrarTarea = (tareaBorrar) => {
     let listaTareasFiltrada = tareas.filter(
       (itemTarea) => itemTarea !== tareaBorrar
